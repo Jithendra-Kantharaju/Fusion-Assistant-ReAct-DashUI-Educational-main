@@ -63,3 +63,4 @@ def simulate_group_chat_and_store(group_chat: GroupChatSystem, json_file_path: s
         content=content,
         fn=fn,
     )
+## Store the conversation history
