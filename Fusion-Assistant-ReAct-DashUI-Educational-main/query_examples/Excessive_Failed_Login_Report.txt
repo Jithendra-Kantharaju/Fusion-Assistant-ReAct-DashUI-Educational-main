@@ -1,0 +1,6 @@
+1) Reached out to alerted user to request information regarding failed logins.
+2) Looked through timeline and it appears this account was the subject of a brute force attack.
+3) The individual responded informing us that there was likely an issue of a changed password and the device may be trying to authenticate with cached credentials.
+4) I was informed of an effort towards clearing cached credentials, I have observed a noticeable drop in failed login attempts.
+ 
+A useful query: where("source_asset" = <source_asset_address> and "destination_asset" = <destination_asset> and "destination_user" = <destination_user> and "destination_account" = <destination_account>) groupby("result")
