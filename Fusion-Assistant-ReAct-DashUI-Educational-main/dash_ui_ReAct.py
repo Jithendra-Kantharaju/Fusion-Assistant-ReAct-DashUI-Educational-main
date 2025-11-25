@@ -57,7 +57,7 @@ S_TERM_PRE = {"margin":"0","whiteSpace":"pre-wrap","wordBreak":"break-word","fon
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 app.config.prevent_initial_callbacks = "initial_duplicate"
 
-# -------- Retrieval helpers --------
+# --------- Retrieval helpers ---------
 def _read_recent_retrievals(limit: int = 30):
     items = []
     p = Path(RETRIEVAL_LOG)
