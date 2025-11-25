@@ -14,7 +14,9 @@ To setup:
 11) Download the mistral 7b model using 'ollama run mistral'
 12) Start the program using "python dash_ui_ReAct.py"
 
-**Project Description** The purpose of the project is to demonstrate a proof of concept for an LLM-based agentic system that uses locally runnable, open-source LLMs to support Security Operation Centers (SOCs) in everyday tasks. The project utilizes Mistral 7B and the LangChain ReAct chain framework to enable autonomous execution of agents for reporting on assets documented and generating queries for a SIEM platform that uses the Log Entry Query Language (LEQL). Various examples and documents are supplied to the individual agents and dispatched by the system using text queries as input. 
+**Project Description** TThis project demonstrates an LLM-based agentic system that operates entirely within a local environment to ensure data privacy and security. By leveraging locally runnable, open-source Large Language Models (LLMs), this tool supports SOC analysts in automating everyday tasks without sending sensitive infrastructure data to third-party cloud providers.
+
+The system utilizes Mistral 7B and the LangChain ReAct (Reasoning + Acting) framework to enable autonomous agents. These agents can intelligently interpret natural language queries, select the appropriate tools, and execute tasks such as asset reporting and SIEM query generation. 
 
 **Note** The setup step is going to require a variable amount of debugging, dependent on your environment. We've done our best to minimize this. 
 
